@@ -1,6 +1,6 @@
 const API_KEY = "ce3fd966e7a1d10d65f907b20bf000552158fd3ed1bd614110baa0ac6cb57a7e";
 
-const tickersHandlers = new Map(); // {}
+const tickersHandlers = new Map();
 
 const loadTickers = () => {
   if (tickersHandlers.size === 0) {
